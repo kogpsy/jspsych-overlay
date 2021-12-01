@@ -34,8 +34,8 @@ const updateOverlay = (millisElapsed, setHtml) => {
 
 To create the overlay and have it added to the DOM, call the `createOverlay()`
 function. Since this function accesses the DOM, it must be fully loaded when the
-function is called. To ensure this, you can call it from within the
-[CallFunctionPlugin][1].
+function is called. To ensure this, you can call it from within a
+[CallFunctionPlugin][1] trial.
 
 `createOverlay()` takes three arguments: the HTML element which the overlay
 should be added to (usually the body element), the inner HTML of the overlay and

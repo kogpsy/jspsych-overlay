@@ -1,6 +1,6 @@
 {
-  "name": "jspsych-overlay",
-  "version": "0.1.0",
+  "name": "@kogpsy/jspsych-overlay",
+  "version": "0.9.0",
   "files": [
     "dist"
   ],
@@ -19,5 +19,8 @@
   },
   "scripts": {
     "build": "webpack"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
