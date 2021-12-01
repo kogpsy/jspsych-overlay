@@ -8,13 +8,13 @@ or even whole experiments.
 Install the library, e.g. with Yarn:
 
 ```shell
-$ yarn add jspsych-overlay
+$ yarn add @kogpsy/jspsych-overlay
 ```
 
 Import the `createOverlay()` function in your experiment project:
 
 ```javascript
-import { createOverlay } from 'jspsych-overlay';
+import { createOverlay } from '@kogpsy/jspsych-overlay';
 ```
 
 Define a function that gets run in each update cycle by the library interally.
@@ -83,4 +83,11 @@ created in the `build` directory):
 $ yarn run build
 ```
 
+### Publish changes to npm
+
+First, make sure you have built the project with the most recent changes. Then
+run `yarn publish` to upload the package to the NPM registry. It will ask you
+to bump the version number. [**Remember semantic versioning**][2].
+
 [1]: https://www.jspsych.org/7.0/plugins/call-function/
+[2]: https://docs.npmjs.com/about-semantic-versioning
