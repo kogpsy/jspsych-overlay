@@ -58,9 +58,11 @@ const updateCycle = () => {
     const time = Date.now();
     millisElapsed += time - previousTime;
     // Call the library consumer's specified function.
-    updateFunctionUser(millisElapsed, (html: string) => {
-      overlayDiv.innerHTML = html;
-    });
+    if (updateFunctionUser) {
+      updateFunctionUser(millisElapsed, (html: string) => {
+        overlayDiv.innerHTML = html;
+      });
+    }
     previousTime = time;
     // Schedule the next cycle in 1ms
     setTimeout(updateCycle, 1);
