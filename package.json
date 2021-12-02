@@ -18,6 +18,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.31.1",
     "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
     "ts-toolbelt": "^9.6.0",
     "typescript": "^4.5.2"
   },
@@ -29,7 +30,8 @@
     "jsPsych"
   ],
   "scripts": {
-    "build": "rollup --config"
+    "build": "rollup --config",
+    "test": "jest"
   },
   "publishConfig": {
     "access": "public"

@@ -74,15 +74,26 @@ normally.
 
 First, to be able to start development, install required dependencies:
 
-```
+```shell
 $ yarn install
 ```
 
 Then, to build a bundled version of your code, execute (your bundle will be
 created in the `build` directory):
 
-```
+```shell
 $ yarn run build
+```
+
+### Testing
+
+Test cases for each `file.ts` are defined in `file.test.ts` which is located in
+the same directory. Testing is done using [Jest][3].
+
+To run tests:
+
+```shell
+$ yarn run test
 ```
 
 ### Publish changes to npm
@@ -93,3 +104,4 @@ to bump the version number. [**Remember semantic versioning**][2].
 
 [1]: https://www.jspsych.org/7.0/plugins/call-function/
 [2]: https://docs.npmjs.com/about-semantic-versioning
+[3]: https://jestjs.io/
