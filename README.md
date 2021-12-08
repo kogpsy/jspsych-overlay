@@ -1,9 +1,9 @@
 # jspsych-overlay
 
-[![npm version](https://badge.fury.io/js/@kogpsy%2Fjspsych-overlay.svg)](https://badge.fury.io/js/@kogpsy%2Fjspsych-overlay)
-
 A small library that helps you create arbitrary overlays during jsPsych trials
 or even whole experiments.
+
+[![npm version](https://badge.fury.io/js/@kogpsy%2Fjspsych-overlay.svg)](https://badge.fury.io/js/@kogpsy%2Fjspsych-overlay)
 
 ## How to use
 
