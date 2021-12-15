@@ -12,15 +12,15 @@
     "@types/bluebird": "*",
     "@types/jest": "^27.0.3",
     "@types/node": "*",
-    "jest": "^27.4.3",
-    "prettier": "2.5.0",
-    "rollup": "^2.60.2",
+    "jest": "^27.4.5",
+    "prettier": "2.5.1",
+    "rollup": "^2.61.1",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.31.1",
-    "ts-jest": "^27.0.7",
+    "ts-jest": "^27.1.1",
     "ts-node": "^10.4.0",
     "ts-toolbelt": "^9.6.0",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.4"
   },
   "repository": {
     "type": "git",
